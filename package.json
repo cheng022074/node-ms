@@ -5,6 +5,7 @@
     "bin": {
         "ms-server": "./bin/server.js"
     },
+    "main":"./lib/index.js",
     "scripts": {
         "start": "node ./bin/server.js"
     },
