@@ -2,8 +2,6 @@ const {
     resolve
 } = require('path') ;
 
-console.log(resolve('data/storage.json')) ;
-
 module.exports = {
     port:8080,
     datasources:{
