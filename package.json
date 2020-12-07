@@ -1,12 +1,14 @@
 {
-    "name":"node-ms",
+    "name": "node-ms",
     "version": "1.0.0",
     "license": "MIT",
     "bin": {
-        "ms-server":"./bin/server.js"
+        "ms-server": "./bin/server.js"
     },
     "scripts": {
-        "start":"node ./bin/server.js"
+        "start": "node ./bin/server.js"
+    },
+    "dependencies": {
+        "koa": "^2.13.0"
     }
 }
-

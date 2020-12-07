@@ -1,1 +1,7 @@
-console.log(process.cwd()) ;
+const {
+    include
+} = require('../lib') ;
+
+const server = include('microservice.server') ;
+
+server() ;
