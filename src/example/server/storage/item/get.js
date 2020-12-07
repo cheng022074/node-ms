@@ -1,6 +1,6 @@
 const {
     datasource
-} = require('node-ms');
+} = require('../../../../../lib');
 
 const Storage = datasource('storage') ;
 
