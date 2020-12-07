@@ -1,7 +1,10 @@
 const {
     include
-} = require('../lib') ;
+} = require('../lib'),
+{
+    join
+} = require('path');
 
 const server = include('microservice.server') ;
 
-server() ;
+server(require(join(process.cwd() , 'ms.config.js'))) ;
