@@ -14,6 +14,7 @@ module.exports = {
     },
     server:{
         '/api/storage/item/set':{
+            method:'post',
             params:[
                 'key',
                 'value'
