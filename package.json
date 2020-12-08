@@ -9,6 +9,11 @@
     "scripts": {
         "start": "node ./bin/server.js"
     },
+    "files": [
+        "bin",
+        "lib",
+        "client.js"
+    ],
     "dependencies": {
         "@koa/cors": "^3.1.0",
         "@koa/router": "^10.0.0",
