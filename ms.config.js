@@ -27,11 +27,5 @@ module.exports = {
             ],
             source:'./src/example/server/storage/item/get.js'
         }
-    },
-    client:{
-        '/api.js':{
-            'storage.item.set':'./src/example/client/storage/item/set.js',
-            'storage.item.get':'./src/example/client/storage/item/set.js'
-        }
     }
 } ;
