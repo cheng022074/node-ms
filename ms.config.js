@@ -10,7 +10,8 @@ module.exports = {
             config:{
                 storagePath:resolve('data/storage.json')
             }
-        }
+        },
+        ajax:'axios'
     },
     server:{
         '/api/storage/item/set':{
@@ -26,6 +27,17 @@ module.exports = {
                 'key'
             ],
             source:'./example/server/storage/item/get.js'
+        },
+        '/shop/code/verification':{
+            source:'./example/shop/code/verification.js'
+        },
+        '/shop/login':{
+            params:[
+                'username',
+                'password',
+                'code'
+            ],
+            source:'./example/shop/login.js'
         }
     }
 } ;
