@@ -19,13 +19,13 @@ module.exports = {
                 'key',
                 'value'
             ],
-            source:'./src/example/server/storage/item/set.js'
+            source:'./example/server/storage/item/set.js'
         },
         '/api/storage/item/get':{
             params:[
                 'key'
             ],
-            source:'./src/example/server/storage/item/get.js'
+            source:'./example/server/storage/item/get.js'
         }
     }
 } ;
